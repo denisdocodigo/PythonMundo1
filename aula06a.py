@@ -1,0 +1,7 @@
+n1 = input('Digite qualquer coisa: ')
+print('O que você digitou é numérico?')
+print(n1.isnumber())
+print('O que você digitou é uma palavra com letras?')
+print(n1.isalpha())
+print('O que você digitou é uma palavra com letras e numeros?')
+print(n1.isalphanum())
